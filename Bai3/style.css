@@ -1,0 +1,75 @@
+html,
+body {
+    font-family: 'Open Sans', 'sans-serif';
+    margin: 0;
+    padding: 0;
+}
+
+.short-Code {
+    background-color: lightslategray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.short-area {
+    width: 500px;
+    height: 250px;
+    padding: 36px 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.btn,
+input {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+button {
+    background-color: #ececec;
+    color: black;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+
+.titleShortCode {
+    font-size: 30px;
+    display: flex;
+}
+
+.textCL {
+    padding: 0px 10px;
+    border-radius: 5px;
+    background-color: orange;
+    margin: auto 5px;
+}
+
+.noti {
+    padding: 15px 0px;
+}
+
+.linkGenerated {
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.notiLink {
+    font-size: 30px;
+    margin-top: 15px;
+}

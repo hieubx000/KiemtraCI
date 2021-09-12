@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let Input = [60, 40, 55, 75, 64]
+
+        let team1 = 0;
+        let team2 = 0;
+        let Output = [];
+        for (let i = 0; i < Input.length; i++) {
+            if (i % 2 == 0) {
+                team1 += Input[i]
+            } else {
+                team2 += Input[i]
+            }
+        }
+        Output.push(team1, team2)
+        console.log("mảng chứa tổng cân nặng của 2 team là: ", Output);
+    </script>
+</body>
+
+</html>

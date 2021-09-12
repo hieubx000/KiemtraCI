@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let inputArray = [2, 3, -5, -2, 4];
+        temp = 1;
+        for (let i = 0; i < inputArray.length; i++) {
+            if (inputArray[i] * inputArray[i + 1] > temp) {
+                temp = inputArray[i] * inputArray[i + 1]
+            }
+        }
+        console.log("tích cặp 2 số liền kề lớn nhất trong mảng là:", temp);
+    </script>
+</body>
+
+</html>
